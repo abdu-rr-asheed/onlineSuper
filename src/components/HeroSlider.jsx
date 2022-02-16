@@ -13,7 +13,7 @@ import { Navigation } from "swiper";
 
 const HeroSlider = () => {
   return (
-    <div className="m-5 rounded-xl overflow-hidden">
+    <div className="m-4 rounded-xl overflow-hidden md:order-2 order-1">
       <Swiper navigation={true} modules={[Navigation]}>
         <SwiperSlide>
           <Banner
@@ -26,7 +26,7 @@ const HeroSlider = () => {
         <SwiperSlide>
           <Banner
             image={banner}
-            first_title="Every Wednesday2"
+            first_title="Abdur Rasheed"
             second_title="Today Offer2"
             percentage="23"
           />
@@ -43,7 +43,7 @@ const Banner = ({ image, first_title, second_title, percentage }) => (
       <h1 className="font-normal">{first_title}</h1>
       <h1>{second_title}</h1>
       <h2>
-        {percentage}% <sup className="md:text-5xl -ml-5 text-red-600">OFF</sup>
+        {percentage}% <sup className="md:text-5xl text-red-600">OFF</sup>
       </h2>
     </div>
   </div>

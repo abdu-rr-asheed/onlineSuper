@@ -50,25 +50,4 @@ export const categories = [
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
-  {
-    id: 7,
-    name: "Meat",
-    icon: <GiMeat />,
-    image:
-      "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-  },
-  // {
-  //   id: 8,
-  //   name: "Meat",
-  //   icon: <GiMeat />,
-  //   image:
-  //     "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-  // },
-  // {
-  //   id: 9,
-  //   name: "Meat",
-  //   icon: <GiMeat />,
-  //   image:
-  //     "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-  // },
 ];

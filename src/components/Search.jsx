@@ -7,7 +7,7 @@ const Search = () => {
       <ImSearch className="text-2xl text-blue-900 m-2" />
       <input
         type="search"
-        className="py-3 mx-2 focus-visible:outline-none w-full h-7"
+        className="py-3 mx-2 focus-visible:outline-none w-full h-7 bg-transparent"
         placeholder="Search Product..."
       />
     </>
