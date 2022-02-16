@@ -10,12 +10,12 @@ const Header = () => {
     <div className="m-4">
       <div className="flex md:justify-start justify-around items-center lg:flex-nowrap flex-nowrap my-4">
         {/* Menu Icon */}
-        <MdOutlineMenu fontSize={42} className="text-blue-900" />
+        <MdOutlineMenu fontSize={42} className="text-blue-900 md:hidden" />
         {/* LOGO */}
         <img src={logo} alt="logo" className="md:w-48 w-36 ml-5" />
         {/* Search bar */}
         <div className="ml-5 md:w-full flex md:flex-nowrap">
-          <div className="md:flex justify-start items-center border border-blue-900 rounded md:w-full hidden">
+          <div className="md:flex justify-center items-center border border-blue-900 rounded-2xl md:w-full hidden">
             <Search />
           </div>
           <div className="flex justify-start items-center">
@@ -25,7 +25,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden justify-center items-center border border-blue-900 rounded md:w-full flex">
+      <div className="md:hidden justify-center items-center border border-blue-900 rounded-2xl md:w-full flex">
         <Search />
       </div>
     </div>
