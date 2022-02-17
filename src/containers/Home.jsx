@@ -9,7 +9,7 @@ import Cards from "./Cards";
 
 const Home = () => {
   return (
-    <>
+    <div className="flex flex-col max-w-[1356px] w-full">
       <Header />
       <div className="xl:block hidden">
         <Navbar />
@@ -20,7 +20,7 @@ const Home = () => {
       <Offers />
       <DeliveryMap />
       <Footer />
-    </>
+    </div>
   );
 };
 

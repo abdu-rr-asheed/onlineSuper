@@ -12,57 +12,33 @@ const Offers = () => {
     <>
       <div className="grid sm:grid-cols-5 gap-4 w-full p-5">
         <div className="bg-blue-900 row-span-2 col-span-2">
-          <img
-            src={image1}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image1} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image2}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image2} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image3}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image3} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image4}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image4} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image5}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image5} />
         </div>
         <div className="bg-blue-900">
-          <img
-            src={image6}
-            alt="poster"
-            className="object-cover w-full h-full"
-          />
+          <OfferImage image={image6} />
         </div>
       </div>
     </>
   );
 };
+
+const OfferImage = ({ image }) => (
+  <img src={image} alt="poster" className="object-cover w-full h-full" />
+);
 
 export default Offers;

@@ -5,7 +5,7 @@ import { categories } from "../utilities/data";
 
 const Navbar = () => {
   return (
-    <div className="sm:relative flex justify-center items-center flex-wrap lg:m-6 m-4">
+    <div className="sm:relative flex justify-center items-center flex-wrap lg:m-3 m-4">
       {categories.map((item) => (
         <div
           className="sm:static relative group flex justify-center items-center flex-col xl:w-fit xl:mx-1 w-full"

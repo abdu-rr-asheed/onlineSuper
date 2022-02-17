@@ -11,7 +11,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-      <div className="m-4">
+      <>
         <div className="flex md:justify-start justify-around items-center lg:flex-nowrap flex-nowrap my-4">
           {/* Menu Icon */}
           {toggle ? (
@@ -41,10 +41,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden justify-center items-center border border-blue-900 rounded-2xl md:w-full flex">
+        <div className="md:hidden justify-center items-center border border-blue-900 rounded-2xl md:w-full flex mx-4">
           <Search />
         </div>
-      </div>
+      </>
+      {/* Close Toggle */}
       {toggle && (
         <div className="fixed top-0 w-full bg-white h-full overflow-y-auto shadow-md z-10 animate-slide-in">
           <div className="w-full flex justify-end items-center p-2">
