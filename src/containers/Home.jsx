@@ -15,8 +15,8 @@ const Home = () => {
         <Navbar />
         <HeroSlider />
       </div>
-      <Cards />
-      <Cards />
+      <Cards main_heading={"New Arrivals"} slug_title={"Excuses"} />
+      <Cards main_heading={"New Products"} slug_title={"Top items"} />
       <Offers />
       <DeliveryMap />
       <Footer />
