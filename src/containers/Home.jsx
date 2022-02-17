@@ -1,5 +1,5 @@
 import React from "react";
-import Category from "../components/Category";
+import Navbar from "../components/Navbar";
 import DeliveryMap from "../components/DeliveryMap";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <Header />
       <div className="flex flex-col">
-        <Category />
+        <Navbar />
         <HeroSlider />
       </div>
       <Cards />
