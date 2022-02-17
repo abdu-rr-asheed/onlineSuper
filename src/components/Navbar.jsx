@@ -36,14 +36,14 @@ const Navbar = () => {
                   />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1569737270187-e250e9a02407?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=419&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
                   />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1616169775818-9f7115b8821e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
@@ -53,7 +53,7 @@ const Navbar = () => {
                   <HeadingH1 title={"Cruciferous"} />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
@@ -63,14 +63,14 @@ const Navbar = () => {
                   <HeadingH1 title={"Leafy Green"} />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1510627498534-cf7e9002facc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
                   />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
@@ -80,21 +80,21 @@ const Navbar = () => {
                   <HeadingH1 title={"Root"} />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1570586437263-ab629fccc818?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
                   />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
                   />
                   <SubCategory
                     image={
-                      "https://images.unsplash.com/photo-1622205313162-be1d5712a43f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                      "https://images.unsplash.com/photo-1626261137220-da233b5e3eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
                     }
                     title={"Lettuce"}
                     subTitle={"more"}
