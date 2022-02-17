@@ -16,6 +16,7 @@ export const categories = [
     icon: <GiFruitBowl />,
     image:
       "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+    dropdown: 1,
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ export const categories = [
     icon: <GiFruitTree />,
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 1,
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const categories = [
     icon: <BiDrink />,
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 0,
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ export const categories = [
     icon: <GiSlicedBread />,
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 1,
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ export const categories = [
     icon: <GiCannedFish />,
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 0,
   },
   {
     id: 6,
@@ -51,6 +56,15 @@ export const categories = [
     icon: <GiMeat />,
     image:
       "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 0,
+  },
+  {
+    id: 7,
+    name: "Meat",
+    icon: <GiMeat />,
+    image:
+      "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    dropdown: 1,
   },
 ];
 
@@ -117,6 +131,18 @@ export const products = [
   },
   {
     id: 6,
+    name: "kiwi5",
+    image: food3,
+    weight: "100g",
+    price: 1300,
+    discountPrice: 1200,
+    categoryId: categories[4].name,
+    recommend: 1,
+    newProducts: 1,
+    offers: 0,
+  },
+  {
+    id: 7,
     name: "kiwi5",
     image: food3,
     weight: "100g",

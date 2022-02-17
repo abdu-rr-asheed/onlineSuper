@@ -1,11 +1,11 @@
 import React from "react";
 import logo from "../assets/logo2.svg";
-import { ImSearch } from "react-icons/im";
+import { categories, products } from "../utilities/data";
 
 const Footer = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-4 place-items-center h-96">
-      <div className="w-10/12 grid place-items-center mx-2">
+    <div className="grid md:grid-cols-3 gap-4 items-start content-start h-96">
+      <div className="w-full flex justify-center items-center flex-col px-4">
         <img src={logo} alt="logo" className="w-6/12" />
         <div className="flex justify-center items-center border border-blue-900 rounded-lg w-full my-4">
           <input
@@ -28,15 +28,10 @@ const Footer = () => {
             <h1 className="font-bold capitalize">New Arrivels</h1>
           </div>
         </div>
-        <ul className="text-center">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
+        <ul className="capitalize text-xl text-center">
+          {categories.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
         </ul>
       </div>
       <div className="w-full">
@@ -45,15 +40,10 @@ const Footer = () => {
             <h1 className="font-bold capitalize">New Arrivels</h1>
           </div>
         </div>
-        <ul className="text-center">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
+        <ul className="capitalize text-xl text-center">
+          {products.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
         </ul>
       </div>
     </div>

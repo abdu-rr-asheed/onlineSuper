@@ -7,14 +7,25 @@ import banner from "../assets/banner.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // import required modules
-import { Navigation } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 
 const HeroSlider = () => {
   return (
     <div className="m-4 rounded-xl overflow-hidden md:order-2 order-1">
-      <Swiper navigation={true} modules={[Navigation]}>
+      <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        navigation={true}
+        loop={true}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination, Navigation]}>
         <SwiperSlide>
           <Banner
             image={banner}

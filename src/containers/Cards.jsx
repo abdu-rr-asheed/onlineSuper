@@ -8,7 +8,7 @@ const Cards = ({ main_heading, slug_title }) => {
   return (
     <>
       <Heading main_heading={main_heading} slug_title={slug_title} />
-      <div className="flex justify-around items-center flex-wrap">
+      <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 xs:grid-cols-1 place-items-center">
         {products.map((item, idx) => (
           <React.Fragment key={idx}>
             {item.recommend == 1 && (
