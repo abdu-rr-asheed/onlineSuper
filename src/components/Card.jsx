@@ -5,7 +5,7 @@ import food3 from "../assets/food3.png";
 const Card = () => {
   return (
     <>
-      <div className="relative sm:w-[220px] w-5/12 bg-white rounded-lg sm:p-4 p-1 mx-4 mb-10">
+      <div className="relative sm:w-[220px] w-5/12 bg-white rounded-lg sm:p-4 p-1 mx-4 mb-10 drop-shadow-xl">
         <h2 className="text-gray-600 md:text-xl text-xs mb-2">Vegetables</h2>
         <h1 className="relative w-10/12 md:text-2xl text-sm bg-gradient-to-r from-blue-900 to-blue-600 text-center text-white font-bold py-1 sm:right-7 right-4 rounded-t-3xl rounded-br-3xl drop-shadow-md before:absolute before:-bottom-3 before:left-0 before:w-3 before:h-3 before:bg-gradient-to-l before:from-blue-600 before:to-blue-900 before:rounded-bl-3xl">
           Kiwi
