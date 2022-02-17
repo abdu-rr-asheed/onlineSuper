@@ -11,10 +11,10 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="flex flex-col">
+      <div className="xl:block hidden">
         <Navbar />
-        <HeroSlider />
       </div>
+      <HeroSlider />
       <Cards main_heading={"New Arrivals"} slug_title={"Excuses"} />
       <Cards main_heading={"New Products"} slug_title={"Top items"} />
       <Offers />

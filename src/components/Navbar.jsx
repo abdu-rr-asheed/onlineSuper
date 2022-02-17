@@ -5,30 +5,26 @@ import { categories } from "../utilities/data";
 
 const Navbar = () => {
   return (
-    <div className="sm:relative flex justify-center items-center flex-wrap md:order-1 order-2 sm:m-4">
+    <div className="sm:relative flex justify-center items-center flex-wrap lg:m-6 m-4">
       {categories.map((item) => (
         <div
-          className="sm:static relative group flex justify-around items-center"
+          className="sm:static relative group flex justify-center items-center flex-col xl:w-fit xl:mx-1 w-full"
           key={item.id}>
-          {/* Category List */}
-          <div className="relative mx-1 sm:my-1 my-2  rounded-2xl sm:w-full w-40 h-8 bg-cover flex justify-start items-center text-blue-900 md:text-xl text-base  py-1 pr-2 before:absolute before:top-0 before:left-0 before:w-full before:h-full border-blue-900 border before:z-[1] overflow-visible z-[2]">
+          <div className="relative mx-1 xl:my-1 my-3  rounded-3xl w-full h-11 flex justify- items-center text-blue-900 md:text-xl text-base  py-1 pr-2 border-blue-900 border">
             <span className="text-3xl  w-11 h-11 grid place-items-center rounded-full border border-blue-900 bg-blue-900 text-white">
               {item.icon}
             </span>
-            <span className="ml-2 text-center md:w-fit w-8/12">
-              {item.name}
-            </span>
+            <span className="ml-2 text-center">{item.name}</span>
             <span
-              className={`ml-2 md:block hidden ${
+              className={`ml-2 ${
                 item.dropdown == 0 ? "opacity-0" : "opacity-100"
               }`}>
               <BiChevronDown />
             </span>
           </div>
-          {/* Drop down */}
           {item.dropdown == 1 && (
-            <div className="hidden lg:group-hover:block lg:absolute top-full left-0 right-0 ml-auto mr-auto bg-white z-10 sm:w-11/12 w-full mt-3 rounded-md">
-              <div className="grid sm:grid-cols-4 gap-4 px-6 py-3">
+            <div className="hidden group-hover:block xl:absolute top-full left-0 right-0 ml-auto mr-auto bg-white z-20 xl:w-11/12 w-full mt-3 rounded-md">
+              <div className="grid lg:grid-cols-4 md:grid-cols-1 gap-4 px-6 py-3">
                 <CategoryCard>
                   <HeadingH1 title={"Leafy Green"} />
                   <SubCategory

@@ -14,7 +14,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 const HeroSlider = () => {
   return (
-    <div className="m-4 rounded-xl overflow-hidden md:order-2 order-1">
+    <div className="m-4 rounded-xl overflow-hidden">
       <Swiper
         pagination={{
           dynamicBullets: true,
@@ -50,11 +50,11 @@ const HeroSlider = () => {
 const Banner = ({ image, first_title, second_title, percentage }) => (
   <div className="relative w-full">
     <img src={image} alt="banner" className="object-cover w-full" />
-    <div className="absolute w-full h-full flex flex-col justify-center md:pl-20 pl-10 bg-gradient-to-r from-black to-[#00000000] top-0 left-0 text-white md:text-8xl text-3xl font-bold">
+    <div className="absolute w-full h-full flex flex-col justify-center md:pl-20 pl-10 bg-gradient-to-r from-black to-[#00000000] top-0 left-0 text-white lg:text-8xl md:text-4xl text-3xl font-bold">
       <h1 className="font-normal">{first_title}</h1>
       <h1>{second_title}</h1>
       <h2>
-        {percentage}% <sup className="md:text-5xl text-red-600">OFF</sup>
+        {percentage}% <span className="md:text-5xl text-red-600">OFF</span>
       </h2>
     </div>
   </div>
